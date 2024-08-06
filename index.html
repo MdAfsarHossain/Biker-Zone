@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biker Zone</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/icons/motorbike.png"
+      type="image/x-icon"
+    />
+
+    <!-- Flowbite CDN -->
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    /> -->
+
+    <!-- Tailwind And DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- This is Heading Section -->
+    <header>
+      <!-- Nabvar -->
+      <!-- This is Navbar -->
+      <nav
+        class="py-3 ml-5 mr-5 mx-auto md:ml-10 md:mr-10 lg:ml-40 lg:mr-40 lg:mx-auto mb-10 flex flex-row justify-between items-center"
+      >
+        <!-- Nav Start -->
+        <div class="w-36 md:w-40 lg:w-64">
+          <!-- Nav Logo -->
+          <a class="cursor-pointer block"
+            ><h1
+              class="text-xl md:text-2xl lg:text-3xl font-bold w-36 md:w-40 lg:w-64"
+            >
+              Bike Dekho
+            </h1>
+          </a>
+        </div>
+
+        <!-- Nav End -->
+        <div class="lg:flex lg:flex-row lg:justify-end lg:items-center lg:mr-0">
+          <ul
+            class="menu menu-horizontal px-1 text-black-100 text-lg font-medium hidden md:flex"
+          >
+            <li><a>Home</a></li>
+            <li>
+              <a href="#">Shop</a>
+            </li>
+            <li>
+              <a>News</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li class="ml-10">
+              <button
+                class="btn rounded px-10 text-xl bg-orange-600 text-white hover:bg-orange-500"
+              >
+                Login
+              </button>
+            </li>
+          </ul>
+
+          <!-- Menubars -->
+          <!-- End of Menubars -->
+        </div>
+      </nav>
+    </header>
+
+    <!-- Flowbite Script -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+  </body>
+</html>
